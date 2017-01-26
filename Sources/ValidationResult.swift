@@ -24,7 +24,7 @@
 import Foundation
 
 // Inspired by RxSwift example
-enum ValidationResult {
+public enum ValidationResult {
     case valid
     case empty
     case validating
@@ -33,7 +33,7 @@ enum ValidationResult {
 
 extension ValidationResult: CustomStringConvertible {
     
-    var isValid: Bool {
+    public var isValid: Bool {
         switch self {
         case .valid:
             return true
@@ -42,7 +42,7 @@ extension ValidationResult: CustomStringConvertible {
         }
     }
     
-    var description: String {
+    public var description: String {
         switch self {
         case .valid:
             return "valid"

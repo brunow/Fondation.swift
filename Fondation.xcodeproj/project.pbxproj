@@ -33,6 +33,7 @@
 		E71E916E1E0429F100DA5F75 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71E916C1E0429F100DA5F75 /* UIView+Extension.swift */; };
 		E71E916F1E0429F100DA5F75 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71E916C1E0429F100DA5F75 /* UIView+Extension.swift */; };
 		E71E91711E042B6500DA5F75 /* TestUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71E91701E042B6500DA5F75 /* TestUIView.swift */; };
+		E7B5F7861E3A4D1F001DEAE8 /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B5F7851E3A4D1F001DEAE8 /* ValidationResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +128,7 @@
 		E71E916A1E04273D00DA5F75 /* TestArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestArray.swift; sourceTree = "<group>"; };
 		E71E916C1E0429F100DA5F75 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		E71E91701E042B6500DA5F75 /* TestUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUIView.swift; sourceTree = "<group>"; };
+		E7B5F7851E3A4D1F001DEAE8 /* ValidationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +222,7 @@
 				E71E90FE1E041D9300DA5F75 /* Info-watchOS.plist */,
 				E71E91661E04270300DA5F75 /* Array+Extention.swift */,
 				E71E916C1E0429F100DA5F75 /* UIView+Extension.swift */,
+				E7B5F7851E3A4D1F001DEAE8 /* ValidationResult.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -610,6 +613,7 @@
 			files = (
 				E71E916D1E0429F100DA5F75 /* UIView+Extension.swift in Sources */,
 				E71E91671E04270300DA5F75 /* Array+Extention.swift in Sources */,
+				E7B5F7861E3A4D1F001DEAE8 /* ValidationResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

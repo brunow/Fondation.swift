@@ -25,6 +25,10 @@ import Foundation
 
 public extension Array where Element: Equatable {
     
+    func include(element: Element) -> Bool {
+        return index(of: element) != nil
+    }
+    
     public mutating func remove(element: Element) {
         self = filter({$0 != element})
     }

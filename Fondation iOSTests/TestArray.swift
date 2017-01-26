@@ -37,4 +37,10 @@ class TestArray: XCTestCase {
         XCTAssertEqual(expectedCount, values.count)
     }
     
+    func testIncludeElement() {
+        let includeElement = allValuesWithDuplicate.include(element: .pending)
+        let expectedValue = true
+        XCTAssertEqual(expectedValue, includeElement)
+    }
+    
 }
